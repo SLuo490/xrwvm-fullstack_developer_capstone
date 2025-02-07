@@ -35,7 +35,8 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://shitaoluo40-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://shitaoluo40-8000.theiadockernext-0-labs-prod-theiak8s
+    '-4-tor01.proxy.cognitiveclass.ai'
 ]
 
 REST_FRAMEWORK = {
@@ -104,13 +105,16 @@ AUTH_PASSWORD_VALIDATORS = [
                 'UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.
+        'MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.
+        'CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.
+        'NumericPasswordValidator',
     },
 ]
 
